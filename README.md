@@ -1,0 +1,2 @@
+# portage
+gentoo configuration files
