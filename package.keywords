@@ -1,0 +1,29 @@
+#required by innotop (argument)
+=dev-db/innotop-1.7.2 ~x86
+#required by percona-toolkit (argument)
+=dev-db/percona-toolkit-2.1.1 ~x86
+#required by nodejs (argument)
+=net-libs/nodejs-0.9.2 ~x86
+# required by virtual/mysql-5.5
+# required by @selected
+# required by @world (argument)
+=dev-db/mariadb-5.5.30 ~x86
+www-servers/nginx
+# required by pecl-zendopcache (argument)
+=dev-php/pecl-zendopcache-7.0.1 **
+# required by mod_pagespeed (argument)
+=www-apache/mod_pagespeed-1.0.22.7 **
+# required by virtual/mysql-5.5
+# required by @selected
+# required by @world (argument)
+=dev-db/mariadb-5.5.32 ~x86
+dev-vcs/subversion
+dev-php/ZendFramework
+# required by dev-php/PEAR-PHP_CodeSniffer (argument)
+=dev-php/PEAR-PHP_CodeSniffer-1.5.0_rc4 ~x86
+# required by pngquant (argument)
+=media-gfx/pngquant-2.2.0 ~x86
+# required by app-emulation/docker (argument)
+=app-emulation/docker-1.4.1 **
+# required by vanilla-sources (argument)
+=sys-kernel/vanilla-sources-3.18.5 ~x86

@@ -1,0 +1,34 @@
+dev-libs/apr 	uuid urandom
+net-fs/samba    acl -addns -ads aio -avahi caps client -cluster cups -debug -doc -examples fam ldap -ldb netapi pam quota readline server smbclient smbsharemodes smbtav2 -swat syslog winbind 
+app-text/ghostscript-gpl cups
+app-text/poppler utils
+dev-vcs/subversion -apache2 bash-completion -berkdb -ctypespython debug -doc dso -emacs extras -gnomekeyring -java -kde nls -perl python -ruby sasl test vim-syntax webdav-neon -webdav-serf 
+dev-db/sqlite 	-debug -doc extensions fts3 icu readline securedelete -soundex -tcl test threadsafe unlocknotify 
+dev-util/strace	aio
+dev-db/mysql	latin1
+www-servers/apache php threads
+dev-lang/python	readline threads xml
+dev-lang/php    apache2 cli fpm bzip2 calendar crypt ctype curl fileinfo filter gd hash iconv inifile intl json mysql mysqli mysqlnd opcache phar pcntl pcre pdo pic reflection session simplexml soap spl sqlite sqlite3 threads tidy tokenizer unicode xml xmlreader xmlwriter zip zlib 
+sys-devel/gcc	cxx
+app-misc/tmux 	vim-syntax
+sys-apps/kmod	lzma tools
+sys-fs/udev	kmod
+dev-db/mariadb	latin1 community tcmalloc
+net-fs/cifs-utils	caps-ng
+www-servers/nginx	aio http debug pcre pcre-jit vim-syntax
+dev-libs/libpcre	jit
+app-admin/eselect-php	fpm
+dev-php/xdebug-client		libedit
+dev-php/ZendFramework cli
+sys-fs/udev 	openrc
+sys-apps/openrc	netifrc
+# required by dev-db/mongodb-2.4.6-r2
+# required by mongodb (argument)
+=dev-libs/boost-1.52.0-r6 threads
+# required by dev-db/mongodb-2.4.6-r2
+# required by mongodb (argument)
+=dev-libs/libpcre-8.33 cxx
+net-libs/nodejs	npm
+dev-vcs/git 	blksha1 -cgi curl -cvs -doc -dso -emacs -gnome-keyring -gpg -gtk -highlight iconv nls pcre perl -python -python_targets_python2_7 -subversion -test threads -tk webdav -xinetd 
+app-emulation/docker vim-syntax
+dev-lang/go	vim-syntax
